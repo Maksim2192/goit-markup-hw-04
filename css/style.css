@@ -71,7 +71,7 @@ body {
    gap: 40px;
  }
 
- .hero-banner-li::after {
+ .hero-banner-li {
   content: '';
   width: 100%;
   position: absolute;
@@ -81,7 +81,7 @@ body {
   border-radius: 2px;
  }
 
-  .banner-link {
+  .banner-link::after{
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
