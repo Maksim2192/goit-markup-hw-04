@@ -108,7 +108,7 @@ body {
   color: #404bbf;
 }
 
-.banner-link-li.current::before {
+.banner-link-li.current::after {
   content: '';
   position: absolute;
   left: 0;
